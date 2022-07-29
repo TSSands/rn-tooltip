@@ -5,9 +5,9 @@ import {
   TouchableOpacity,
   Modal,
   View,
-  ViewPropTypes as RNViewPropTypes,
   I18nManager,
 } from 'react-native';
+import { ViewPropTypes as RNViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 
 import Triangle from './Triangle';
